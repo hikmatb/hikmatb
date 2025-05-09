@@ -7,6 +7,7 @@ function Navbar() {
     return (
         <div className="navbar">
         <ul>
+            <li>Hikmat Babalola</li>
             <li>
                 <NavLink to="/" end className={({ isActive }) => isActive ? "active" : ""}>
                 Home
