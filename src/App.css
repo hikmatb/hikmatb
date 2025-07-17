@@ -1,10 +1,8 @@
 .App {
   display: flex;
-  height: 100vh;
+  background-color: darkslategray;
 }
 
 .main-content {
   flex: 1;
-  background-color: #A3B18A;
-  height: 100vh;
 }
