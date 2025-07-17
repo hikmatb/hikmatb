@@ -23,11 +23,6 @@ function Navbar() {
                 Projects
                 </NavLink>
             </li>
-            <li>
-                <NavLink to="/blog" className={({ isActive }) => isActive ? "active" : ""}>
-                Blog
-                </NavLink>
-            </li>
         </ul>
         </div>
     );
