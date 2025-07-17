@@ -82,7 +82,7 @@ function Home() {
                   <li>Mobile application, promoting mindfulness towards technology.</li>
                   <li>Usage tracking, personalised reminders, activity suggestions.</li>
                   <li>Third-party data visualtion tools used to present graphs.</li>
-                  <li className="no-bullet">
+                  <li className="no-bullet inline-button">
                     <a 
                       href="https://github.com/hikmatb/Mindful-Computing-Digital-Wellbeing-Dashboard" 
                       target="_blank"
@@ -114,7 +114,7 @@ function Home() {
                   <li>Created in a team of 6 (including myself).</li>
                   <li>Self-taught NodeJS and ReactJS to build a user interface, integrating API calls.</li>
                   <li>Developed key frontend features, utilising many libraries (e.g. Material-UI).</li>
-                  <li className="no-bullet">
+                  <li className="no-bullet inline-button">
                     <a 
                       href="https://github.com/cs-ucc-ie/CS3305-Team5" 
                       target="_blank"
