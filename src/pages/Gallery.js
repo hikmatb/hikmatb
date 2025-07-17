@@ -18,6 +18,7 @@ function Gallery() {
     const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
     return (
         <div className="gallery">
+            <title>Hikmat Babalola | Gallery</title>
             <div className="header">
                 <h1>Hikmat Babalola</h1>
                 <h3>BSc (Hons) Computer Science Graduate | Open to Work</h3>

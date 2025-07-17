@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className="home">
+      <title>Hikmat Babalola | Home</title>
       <div className="header">
           <h1>Hikmat Babalola</h1>
           <h3>BSc (Hons) Computer Science Graduate | Open to Work</h3>
@@ -96,6 +97,28 @@ function Home() {
                 </ul>
               </li>
               <li>
+                <strong>Personal Website</strong><br />
+                <em>Portfolio Website, 2025</em><br />
+                <em><strong>ReactJS, JavaScript, HTML5, CSS</strong></em><br />
+                <ul>
+                  <li>Web Application created as a portfolio.</li>
+                  <li>Created using ReactJS.</li>
+                  <li>Primarly coded in JavaScript and HTML5.</li>
+                  <li>Utilised a third-party library to showcase images.</li>
+                  <li className="no-bullet inline-button">
+                    <a 
+                      href="https://github.com/hikmatb/portfolio-website" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link-button inline-button"
+                    >
+                      <img src={require('../images/github.png')} alt="GitHub" />
+                      Project's GitHub Page
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
                 <strong>Android List App</strong><br />
                 <em>4th Year Android Programming Module, 2024</em><br />
                 <em><strong>Android Studio, Java</strong></em><br />
@@ -108,7 +131,7 @@ function Home() {
               <li>
                 <strong>Improve.me</strong><br />
                 <em>Team Software Project, 2024</em><br />
-                <em><strong>Python, JavaScript, Node.js, Flask, HTML5</strong></em><br />
+                <em><strong>ReactJS, Python, JavaScript, Node.js, Flask, HTML5</strong></em><br />
                 <ul>
                   <li>Productivity Web Application</li>
                   <li>Created in a team of 6 (including myself).</li>
