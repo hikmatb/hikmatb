@@ -126,6 +126,17 @@ function Home() {
                   <li>Multi-activity Android app showcasing motosport figures.</li>
                   <li>Integrated a search functionality, to filter relevant results based on user input.</li>
                   <li>WebView to provide in-app access to web pages on each individual.</li>
+                  <li className="no-bullet inline-button">
+                    <a 
+                      href="https://github.com/hikmatb/Formula-1-Multi-Activity-Application" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link-button inline-button"
+                    >
+                      <img src={require('../images/github.png')} alt="GitHub" />
+                      Project's GitHub Page
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li>
