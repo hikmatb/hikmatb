@@ -99,3 +99,51 @@
 .gallery p {
   font-size: large;
 }
+
+@media (max-width: 768px) {
+
+  .gallery {
+    height: 100vh;
+  }
+  .gallery-header h1 {
+    font-size: 2rem;
+  }
+
+  .introduction {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .embla__container {
+    margin-top: 2rem;
+  }
+
+  .embla__slide {
+    flex: 0 0 100%;
+    padding: 0 1rem;
+  }
+
+  .embla__slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header h3 {
+    font-size: 1rem;
+  }
+
+  .link-button {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  .link-button img {
+    width: 16px;
+    height: 16px;
+  }
+}
